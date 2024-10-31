@@ -249,7 +249,13 @@ html, body {
     margin-top: 5px;
 }
 
-
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+    .deepak_container video {
+        width: 100%;    /* Make video full width */
+        height: auto;   /* Maintain aspect ratio */
+    }
+}
 
 @media screen and (min-width: 421px) and (max-width: 800px) {    
     .para_audio {
